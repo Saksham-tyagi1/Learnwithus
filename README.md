@@ -28,27 +28,26 @@ By combining course revision, study planning, skill development, and interactive
 
 ### Wikipedia Search Tool
 *   Ask factual questions using keywords like "wiki" to get comprehensive summaries directly from Wikipedia, complete with source citations.
-<img width="1355" height="481" alt="image" src="https://github.com/user-attachments/assets/bbcfd50a-d185-4df8-a5f7-644fa3175720" />
+
 
 ### Dynamic Skill Agent
 *   Get AI-generated micro-skills on demand.
 *   Three categories: Tech Skills, Aptitude, and Soft Skills.
 
-<img width="1517" height="718" alt="image" src="https://github.com/user-attachments/assets/46a32793-a886-4b75-9dd9-528905d4818b" />
 
 
 ### AI-Powered Study Planner
 *   Input your study duration & subjects.
 *   Generate a day-by-day revision plan in a clean markdown table.
 
-<img width="1836" height="799" alt="image" src="https://github.com/user-attachments/assets/5f4ad1bb-7fef-4129-bd29-b22daef60ebe" />
+
 
 
 ### Interactive Quiz Agent
 *   Instantly create 5-question MCQs on any topic.
 *   Quiz can be based on general knowledge or your uploaded PDF content.
 
-<img width="1785" height="881" alt="image" src="https://github.com/user-attachments/assets/b1edc75f-dec2-4232-9340-a971157351a4" />
+
 
 
 ## Tech Stack & Architecture
@@ -80,56 +79,6 @@ Learn_flow/
 *   A [Qdrant Cloud](https://cloud.qdrant.io/) account
 *   A [Google AI Studio](https://aistudio.google.com/) API key
 
-### Installation & Setup
-
-1.  **Clone the repository**
-    ```bash
-    git clone https://github.com/divyanandini2211/Learn_flow.git
-    cd Learn_flow
-    ```
-
-2.  **Backend Setup**
-    ```bash
-    cd backend
-    python -m venv venv
-    # Windows
-    venv\Scripts\activate
-    # macOS/Linux
-    source venv/bin/activate
-    pip install -r requirements.txt
-    ```
-
-    Create a `.env` file inside `backend/` and add:
-    ```
-    GOOGLE_API_KEY=your_google_api_key
-    QDRANT_URL=your_qdrant_cloud_url
-    QDRANT_API_KEY=your_qdrant_api_key
-    ```
-
-3.  **Frontend Setup**
-    ```bash
-    cd ../frontend
-    python -m venv venv
-    source venv/bin/activate   # (or venv\Scripts\activate on Windows)
-    pip install -r requirements.txt
-    ```
-
-## ▶ Running the Application
-
-1.  **Start Backend** (Terminal 1 – inside `backend/`):
-    ```bash
-    uvicorn backend:app --reload
-    ```
-
-2.  **Start Frontend** (Terminal 2 – inside `frontend/`):
-    ```bash
-    streamlit run main.py
-    ```
-
-### Access in Browser:
-
-*   **Frontend**: `http://localhost:8501`
-*   **Backend API**: `http://localhost:8000`
 
 ## Usage Examples
 
@@ -162,15 +111,8 @@ Learn_flow/
 
 ## TeamMates
 
-*   Divya Nandini- 23N217
-*   Pranika - 23N236
-*   Thejashri  - 23N262
-*   Priyanka - 24N434
+*   Niveta Thangaraj
+*   Saksham Tyagi
+*   Aishvarya Gopalswamy
+*   Nanda
 
-## License
-
-This project is developed as part of an academic assignment.
-All rights reserved.
-
----
-**Learn Flow – Smarter study, stronger future.**
