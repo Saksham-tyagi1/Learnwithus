@@ -23,8 +23,6 @@ By combining course revision, study planning, skill development, and interactive
 *   Upload any PDF (lecture notes, research papers, textbooks).
 *   Ask deep, context-aware questions and receive precise answers.
 
-  <img width="1842" height="737" alt="image" src="https://github.com/user-attachments/assets/b481458d-66e4-491b-a73b-527ea79430ae" />
-
 
 ### Wikipedia Search Tool
 *   Ask factual questions using keywords like "wiki" to get comprehensive summaries directly from Wikipedia, complete with source citations.
